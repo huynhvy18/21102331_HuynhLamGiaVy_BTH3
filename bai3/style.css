@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 25px;
+    color: purple;
+  }
+.bai2{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    border: 1px solid;
+    background-color: gray;
+    border-radius: 5px;
+  }
+  .btn1{
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .khung{
+    display: grid;
+    grid-template-columns: 150px 200px;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+.input{
+    margin-bottom: 10px;
+  }
+  .input label{
+    font-size: 17px;
+    display: inline-block;
+    width: 120px;
+  }
+  .input input,
+  .input select,
+  .input textarea{
+    font-size: 17px;
+    width: 300px;
+    padding: 5px;
+  }
+  

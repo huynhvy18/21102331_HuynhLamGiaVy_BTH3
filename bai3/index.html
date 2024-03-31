@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đánh giá</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h3>
+            ĐÓNG GÓP Ý KIẾN SẢN PHẨM
+        </h3>
+        <div class="bai3">
+        <div class="khung">
+          <form action="#" method="post">
+              <div class="input">
+                  <label for="input-name"></label>
+                  <input type="text" placeholder="Họ và tên" id="input-name" required>
+              </div>
+              <div class="input">
+                <label for="input-card"></label>
+                <input type="text" placeholder="Mã thẻ" id="input-card" required>
+            </div>
+            <div class="input">
+                <label for="input-phone"></label>
+                <input type="tel" placeholder="Số điện thoại" id="input-phone" required>
+            </div>
+            <div class="input">
+                <label for="input-email"></label>
+                <input type="email" placeholder="E-mail" id="input-email" required>
+            </div>
+            <div class="input">
+                <label for="input-customer-type"></label>
+                <select id="input-customer-type" required>
+                    <option value="">Chọn loại khách hàng</option>
+                    <option value="vip">VIP</option>
+                    <option value="regular">Regular</option>
+                    <option value="new">New</option>
+                </select>
+            </div>
+            <div class="input">
+                <label for="input-invoice"></label>
+                <input type="text" placeholder="Mã hoá đơn" id="input-invoice">
+            </div>
+              <div class="input">
+                  <label for="input-description"></label>
+                  <textarea id="input-description" placeholder="Nhập chi tiết mô tả" required></textarea>
+              </div>
+              <button class="btn1" type="submit" onclick="bai3()">GỬI GÓP Ý
+                <i class="fa-regular fa-message"></i>
+              </button>
+          </form>
+        </div>
+        </div>
+    </center>
+<script src="bai3.js"></script>
+</body>
+</html>
